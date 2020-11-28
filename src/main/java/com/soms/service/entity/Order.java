@@ -14,7 +14,7 @@ import javax.validation.constraints.NotNull;
 
 import org.springframework.format.annotation.DateTimeFormat;
 import com.soms.service.validation.ValidateStatus;
-
+/* Entity mapped to existing table orderTable */
 @Entity
 @Table(name = "orderTable")
 public class Order {
